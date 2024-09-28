@@ -1,0 +1,13 @@
+package module2;
+
+public class Emp {
+
+	private empNo;
+	private eName;
+	private sal;
+	
+	public void accept()
+	{
+		
+	}
+}

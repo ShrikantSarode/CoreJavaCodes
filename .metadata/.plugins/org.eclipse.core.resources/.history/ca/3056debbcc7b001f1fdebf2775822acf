@@ -1,0 +1,26 @@
+package module2;
+
+public class Student {
+	int rollNo;
+	 String name;
+	 double score;
+	
+	public void attend()
+	{
+		System.out.println("Attend the class.");
+	}
+	public void apperExam()
+	{
+		System.out.println("Appear for exam.");
+	}
+	public void completeAssignment()
+	{
+		System.out.println("Complete Assignment.");
+	}
+	public void display()
+	{
+		System.out.println("Roll No: "+rollNo);
+		System.out.println("Name: "+name);
+		System.out.println("Score: "+score);
+	}
+}

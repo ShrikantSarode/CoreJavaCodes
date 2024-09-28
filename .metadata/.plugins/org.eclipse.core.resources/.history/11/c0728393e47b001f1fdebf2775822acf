@@ -1,0 +1,32 @@
+package module3;
+
+import java.util.Scanner;
+
+public class IfDemo3 {
+    
+    // Method to count digits
+    public int countDigits(int n) {
+        // Base case: if n is 0, return 0 (but we return 1 if it's the first call)
+        if (n == 0) {
+            return 0;
+        }
+        // Recursive case
+        return 1 + countDigits(n / 10);
+    }
+    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter any Number: ");
+        int n = sc.nextInt();
+        
+        IfDemo3 demo = new IfDemo3();
+        int digitCount = demo.countDigits(n);
+        
+        // Handle case when input is 0 separately
+        if (n == 0) {
+            digitCount = 1; // 0 has one digit
+        }
+        
+        System.out.println("Number of digits are: " + digitCount + " digits.");
+    }
+}

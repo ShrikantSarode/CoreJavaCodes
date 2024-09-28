@@ -1,0 +1,25 @@
+package module4;
+
+public class Emp {
+private int empno;
+private String ename;
+private double bal;
+
+
+public void accept()
+{
+	
+}
+public void display() {
+	
+}
+public void checkEmpNo() 
+{
+	//>0>valid empno
+}
+public void checkBalance()
+{
+	//100000 >produce the proof
+}
+
+}

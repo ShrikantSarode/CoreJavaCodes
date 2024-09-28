@@ -1,0 +1,29 @@
+package assignment1;
+//Assignment 2: Exam Grading System
+//Write a program that determines whether a student passes an exam based on three subjects. A student passes if the average score is at least 60, and none of the individual scores is below 40.
+//Requirements:
+//•    Use logical operators && and || to combine conditions.
+
+public class Assign2 {
+
+	private int rollNo,s1,s2,s3;
+	private String name;
+	private float avg=0f,tot=0f;
+	
+	public void accept()
+	{
+		
+	}
+	public void display()
+	{
+		
+	}
+	public void checkResult()
+	{
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

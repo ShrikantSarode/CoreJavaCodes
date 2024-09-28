@@ -1,0 +1,33 @@
+package assignment1;
+
+import java.util.Scanner;
+
+//Assignment 4: Voting Eligibility
+//Write a program that checks if a person is eligible to vote. A person can vote if they are a citizen and their age is 18 or above.
+//Requirements:
+//•    Use logical && to combine conditions, and ! to negate conditions if necessary.
+public class Assign4 {
+	private String name;
+	private int age;
+	private char citizen;
+	
+	public void accept() {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter Name: ");
+		name = sc.next();
+		
+		System.out.println("Enter age: ");
+		age = sc.nextInt();
+
+		System.out.println("Are you Indian Y or N: ");
+		citizen = sc.next().charAt(0);
+
+		
+
+	}
+
+	public static void main(String[] args) {
+		
+	}
+}

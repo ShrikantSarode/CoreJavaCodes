@@ -1,0 +1,27 @@
+package module1;
+
+public class Library {
+
+	private int id,copiesAvailable;
+	private long isbn;
+	private String bookName,author;
+	
+	public
+		void add()
+		{
+			System.out.println("Book Added");
+		}
+		void remove()
+		{
+			
+		}
+		void search()
+		{
+			
+		}
+	public static void main(String[] args) {
+		
+
+	}
+
+}
