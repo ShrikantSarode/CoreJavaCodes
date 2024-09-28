@@ -14,6 +14,10 @@
     <fullyQualifiedTypeName name="module5.Circle"/>
     <fullyQualifiedTypeName name="module5.Overloadingdemo"/>
     <fullyQualifiedTypeName name="module5.OverloadMain"/>
+    <fullyQualifiedTypeName name="array.A1"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
 </qualifiedTypeNameHistroy>
