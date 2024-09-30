@@ -1,0 +1,9 @@
+package autoboxing;
+
+public class AutoboxDemo {
+
+	public static void main(String[] args) {
+		int a=100;
+		Integer
+	}
+}

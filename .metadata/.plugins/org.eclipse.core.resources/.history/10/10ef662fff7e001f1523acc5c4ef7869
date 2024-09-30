@@ -1,0 +1,22 @@
+package constructor;
+
+import java.util.Scanner;
+
+public class TestStudent {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter roll, name, score: ");
+		int Rollno=sc.nextInt();
+		
+		Student s1 = new Student();
+		
+		s1.display();
+		s1.markAttendance();
+		System.out.println("===========================");
+
+	}
+}
+	

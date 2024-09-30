@@ -1,0 +1,31 @@
+package array;
+
+public class A6 {
+
+	public static void main(String[] args) {
+        int[] arr = {1, 1, 2, 2, 2, 3};
+        
+        // Find the maximum value to size the count array
+        int maxVal = 0;
+        for (int num : arr) {
+            if (num > maxVal) {
+                maxVal = num;
+            }
+        }
+
+        // Create an array to store counts
+        int[] countArray = new int[maxVal + 1];
+
+        // Count occurrences
+        for (int num : arr) {
+            countArray[num]++;
+        }
+
+        // Print the results
+        for (int i = 1; i < countArray.length; i++) {
+            if (countArray[i] > 0) {
+                System.out.println(i + "=" + countArray[i]);
+            }
+        }
+    }
+}

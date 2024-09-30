@@ -1,0 +1,52 @@
+package constructor;
+
+public class Student {
+
+    private int rollNo;
+    private String name;
+    private double score; // Changed to primitive type
+
+    // Default constructor
+    public Student() {
+        this.rollNo = 0;
+        this.name = "";
+        this.score = 0.0;
+    }
+
+    // Parameterized constructor
+    public Student(int rollNo, String name, double score) {
+        this.rollNo = rollNo;
+        this.name = name;
+        this.score = score;
+    }
+
+    // Getters and Setters
+    public int getRollno() {
+        return rollNo;
+    }
+
+    public void setRollno(int rollNo) {
+        this.rollNo = rollNo;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getScore() {
+        return score;
+    }
+
+ 
+
+    public void markAttendance() {
+        System.out.println(name + " has marked attendance.");
+    }
+
+    
+    }
+}
