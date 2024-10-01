@@ -1,0 +1,9 @@
+package inheritance;
+
+public class TestPerson {
+
+	public static void main(String[] args) {
+		Person person= new Person("Shrikant", 22, 'M');
+		System.out.println(person);
+	}
+}

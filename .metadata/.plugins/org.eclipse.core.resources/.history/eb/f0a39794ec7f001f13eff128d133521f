@@ -1,0 +1,8 @@
+package inheritance;
+
+public class TestPerson1 {
+
+	public static void main(String[] args) {
+		
+	}
+}

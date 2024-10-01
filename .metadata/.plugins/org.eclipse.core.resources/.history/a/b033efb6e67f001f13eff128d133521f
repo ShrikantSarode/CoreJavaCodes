@@ -1,0 +1,11 @@
+package inheritance;
+
+public class TestCar {
+
+	public static void main(String[] args) {
+		
+		Car car=new SportCar("BMW", "S1", 2024, "Blue", 300,20);
+		
+		System.out.println(car);
+	}
+}
