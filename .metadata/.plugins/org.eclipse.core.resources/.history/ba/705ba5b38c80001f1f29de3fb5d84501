@@ -1,0 +1,38 @@
+package module7;
+
+public class Shape {
+
+	void calArea(String shape,int a, int b)
+	{
+		System.out.println("calArea of shape class");
+	}
+	void display()
+	{
+		System.out.println("display of shape class");
+	}
+	void fun1()
+	{
+		System.out.println("fun1 of shape class");
+	}
+}
+class Reactangle extends Shape
+{
+	void calArea(String shape,int a, int b)
+	{
+		System.out.println("Area of Rectangle: "+a*b);
+	}
+	void display()
+	{
+		super.display();
+		System.out.println("display of Rectangle class");
+	}
+	
+}
+class functionOverriding{
+	public static void main(String[] args) {
+		Shape shape=new Reactangle();
+		shape.calArea("Rectangle", 5, 5);
+		shape.display();
+		
+	}
+}

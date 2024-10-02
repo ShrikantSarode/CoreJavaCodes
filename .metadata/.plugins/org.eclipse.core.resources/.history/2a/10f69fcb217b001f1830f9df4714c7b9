@@ -1,8 +1,0 @@
-package module1;
-
-public class Myclass2 {
-
-	public static void main(String[] args) {
-		
-	}
-}

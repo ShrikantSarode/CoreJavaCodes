@@ -1,0 +1,9 @@
+package module7;
+
+public class TestCollege {
+
+	public static void main(String[] args) {
+		
+		College c1=new College("MET", 'A', "Nashik", "987898778");
+	}
+}

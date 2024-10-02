@@ -3,11 +3,14 @@ package module5;
 import java.util.Scanner;
 
 public class Circle {
-	final double PI=3.14;
+	static final double PI;
 	private float rad;
 	private double area;
 	private double peri;
 	
+	static {
+		PI=3.142;
+	}
 	public void accept()
 	{
 		Scanner sc= new Scanner(System.in);

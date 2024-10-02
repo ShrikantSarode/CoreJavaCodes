@@ -28,7 +28,6 @@
     <fullyQualifiedTypeName name="gettersetter.Account"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
     <fullyQualifiedTypeName name="inheritance.Student"/>
     <fullyQualifiedTypeName name="inheritance.Emp"/>
     <fullyQualifiedTypeName name="inheritance.Car"/>
@@ -39,4 +38,11 @@
     <fullyQualifiedTypeName name="assignment5.Bank"/>
     <fullyQualifiedTypeName name="assignment5.BankA"/>
     <fullyQualifiedTypeName name="assignment5.Student"/>
+    <fullyQualifiedTypeName name="module7.College"/>
+    <fullyQualifiedTypeName name="module7.Stream"/>
+    <fullyQualifiedTypeName name="module7.Reactangle"/>
+    <fullyQualifiedTypeName name="module7.Shape"/>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+    <fullyQualifiedTypeName name="Static.StaticVarDemo"/>
+    <fullyQualifiedTypeName name="Static.BankAccount"/>
 </qualifiedTypeNameHistroy>

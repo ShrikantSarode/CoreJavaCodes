@@ -1,0 +1,34 @@
+package Static;
+
+public class BankAccount {
+	
+	private int accNo;
+	private double bal;
+	private static int idNum=0;
+	
+	
+	public BankAccount() {
+		accNo=idNum++;
+		bal=0;
+	}
+	
+	public BankAccount(double bal) {
+		
+		this.accNo = idNum++;
+		this.bal = bal;
+	}
+
+	public static int getIdNum()
+	{
+		return idNum;
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println(idNum);
+		BankAccount account1=new BankAccount();
+		System.out.println(getIdNum());
+		System.out.println(BankAccount.getIdNum());
+	}
+
+}

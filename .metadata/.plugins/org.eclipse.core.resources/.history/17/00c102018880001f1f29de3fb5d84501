@@ -1,0 +1,27 @@
+package module7;
+
+public class College {
+
+	private String name;
+	private char grade;
+	private String address;
+	private String contactNO;
+	public College() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public College(String name, char grade, String address, String contactNO) {
+		super();
+		this.name = name;
+		this.grade = grade;
+		this.address = address;
+		this.contactNO = contactNO;
+	}
+	@Override
+	public String toString() {
+		return "College [name=" + name + ", grade=" + grade + ", address=" + address + ", contactNO=" + contactNO + "]";
+	}
+	
+	
+	
+}

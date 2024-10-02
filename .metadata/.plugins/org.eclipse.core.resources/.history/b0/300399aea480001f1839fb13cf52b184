@@ -1,0 +1,12 @@
+package Static;
+
+public class BankAccount {
+	
+	private int accNo;
+	private double bal;
+	private static int idNum=1;
+	public static void main(String[] args) {
+		
+	}
+
+}
