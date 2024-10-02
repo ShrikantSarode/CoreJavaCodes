@@ -1,16 +1,21 @@
 package assignment5;
 
 public class BankC extends Bank{
-
+double bal;
+	public BankC(double bal, String name) {
+		super(bal, name);
+		
+	}
+	
 	public double applyInterest()
 	{
-		double result= interest*bal;
-		return result;
+		bal= interest * bal;
+		return bal;
 	}
 	
 	public double getBalance()
 	{
-	  double result=bal;
-	  return result;
+	  
+	  return bal;
 	}
 }

@@ -1,0 +1,16 @@
+package assignment5;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+		
+		Bank bank1 = new BankA(1000,"name");
+		Bank bank2 = new BankB(1500,"name");
+		Bank bank3 = new BankC(2000,"name");
+		
+		System.out.println(bank1.applyInterest());
+		System.out.println(bank1.getBalance());
+
+	}
+
+}

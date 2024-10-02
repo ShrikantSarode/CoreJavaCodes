@@ -36,4 +36,7 @@
     <fullyQualifiedTypeName name="inheritance.Truck"/>
     <fullyQualifiedTypeName name="inheritance.Vehicle"/>
     <fullyQualifiedTypeName name="inheritance.Person"/>
+    <fullyQualifiedTypeName name="assignment5.Bank"/>
+    <fullyQualifiedTypeName name="assignment5.BankA"/>
+    <fullyQualifiedTypeName name="assignment5.Student"/>
 </qualifiedTypeNameHistroy>
