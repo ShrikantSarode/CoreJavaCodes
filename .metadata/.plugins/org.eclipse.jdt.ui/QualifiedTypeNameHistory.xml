@@ -45,4 +45,7 @@
     <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
     <fullyQualifiedTypeName name="Static.StaticVarDemo"/>
     <fullyQualifiedTypeName name="Static.BankAccount"/>
+    <fullyQualifiedTypeName name="abstractpac.Animal"/>
+    <fullyQualifiedTypeName name="abstractpac.Dog"/>
+    <fullyQualifiedTypeName name="abstractpac.Dog.Loin"/>
 </qualifiedTypeNameHistroy>

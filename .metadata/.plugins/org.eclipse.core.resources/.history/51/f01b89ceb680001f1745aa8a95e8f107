@@ -1,0 +1,37 @@
+package abstractpac;
+
+abstract class Animal {
+	
+	final int legs=4;
+	
+	abstract public void sound();
+	abstract public void fun1();
+	abstract public void fun2();
+	
+	public void ClassInfo(String type) {
+		System.out.println("It belongs to "+type+" has "+legs+" legs.");
+	}
+	
+}
+class Dog extends Animal{
+
+	@Override
+	public void sound() {
+	
+		
+	}
+
+	@Override
+	public void fun1() {
+	
+		
+	}
+
+	@Override
+	public void fun2() {
+	
+		
+	}
+	
+
+}
