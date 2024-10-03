@@ -1,0 +1,19 @@
+package string;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		
+		String string1 = new String("Shrikant");
+		String string2 = new String("Sarode");
+		
+		System.out.println(string1.substring(5));
+		System.out.println(string1.substring(5,9));
+		System.out.println(string1.trim());
+		System.out.println(string1.toUpperCase());
+		System.out.println(string1.trim().toLowerCase());
+		System.out.println(string1.indexOf("t"));
+		System.out.println(string1.trim().toLowerCase());
+		System.out.println(string1.replace("i","aaa"));
+	}
+}

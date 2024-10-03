@@ -1,0 +1,17 @@
+package string;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		
+		StringDemo string1 = new StringDemo("Shrikant");
+		StringDemo string2 = new StringDemo("Sarode");
+		System.out.println(string1.substring(5));
+		System.out.println(string1.substring(5,9));
+		System.out.println(string1.trim());
+		System.out.println(string1.toUpperCase());
+		System.out.println(string1.trim().toLowerCase());
+		System.out.println(string1.indexOf());
+		System.out.println(string1.trim().toLowerCase());
+	}
+}

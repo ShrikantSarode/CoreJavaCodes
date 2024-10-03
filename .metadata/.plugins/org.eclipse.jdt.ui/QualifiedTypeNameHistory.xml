@@ -55,4 +55,7 @@
     <fullyQualifiedTypeName name="Assignment6.GeometricShape"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="abstractpac.BankAccount"/>
+    <fullyQualifiedTypeName name="interfacepac.Graphics"/>
+    <fullyQualifiedTypeName name="interfacepac.Circle"/>
+    <fullyQualifiedTypeName name="interfacepac.Rectangle"/>
 </qualifiedTypeNameHistroy>

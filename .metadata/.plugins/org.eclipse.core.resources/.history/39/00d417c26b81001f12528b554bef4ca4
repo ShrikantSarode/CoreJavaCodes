@@ -1,0 +1,19 @@
+package string;
+
+public class StringBufferDemo {
+
+	public static void main(String[] args) {
+		StringBuffer buffer = new StringBuffer("Ajay ");
+		
+		buffer.append("Shrikant");
+		System.out.println(buffer);
+		
+		int i=buffer.indexOf("r");
+		System.out.println("i index is "+i);
+		
+		int i1=buffer.lastIndexOf("t");
+		System.out.println("i index is "+i1);
+		
+		buffer.replace(i, i1, "new");
+	}
+}

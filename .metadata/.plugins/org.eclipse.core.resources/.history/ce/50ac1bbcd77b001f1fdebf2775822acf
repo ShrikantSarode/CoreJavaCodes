@@ -1,8 +1,0 @@
-package module1;
-
-public class TestEmp {
-
-	public static void main(String[] args) {
-		
-	}
-}
