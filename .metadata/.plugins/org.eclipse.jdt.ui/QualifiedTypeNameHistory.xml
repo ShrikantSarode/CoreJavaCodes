@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="module1.Student"/>
-    <fullyQualifiedTypeName name="module1.Library"/>
     <fullyQualifiedTypeName name="module2.Student"/>
     <fullyQualifiedTypeName name="module2.Emp"/>
     <fullyQualifiedTypeName name="module4.User"/>
@@ -58,4 +56,8 @@
     <fullyQualifiedTypeName name="interfacepac.Graphics"/>
     <fullyQualifiedTypeName name="interfacepac.Circle"/>
     <fullyQualifiedTypeName name="interfacepac.Rectangle"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.nimbus.NimbusLookAndFeel"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
