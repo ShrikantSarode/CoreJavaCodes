@@ -1,0 +1,5 @@
+package interfacepac;
+
+public interface Graphics {
+
+}

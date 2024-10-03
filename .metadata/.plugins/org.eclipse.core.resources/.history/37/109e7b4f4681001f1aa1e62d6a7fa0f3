@@ -1,0 +1,15 @@
+package abstractpac;
+
+ abstract class BankAccount
+{
+	protected int id;
+	protected float bal;
+	
+	abstract public int calInterst();
+}
+class CurrentAccount extends BankAccount{
+	
+	
+	
+}
+

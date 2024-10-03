@@ -1,0 +1,10 @@
+package Static;
+
+import static 
+public class StaticImport {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

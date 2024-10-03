@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="module1.Student"/>
     <fullyQualifiedTypeName name="module1.Library"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="module2.Student"/>
     <fullyQualifiedTypeName name="module2.Emp"/>
     <fullyQualifiedTypeName name="module4.User"/>
@@ -48,4 +47,12 @@
     <fullyQualifiedTypeName name="abstractpac.Animal"/>
     <fullyQualifiedTypeName name="abstractpac.Dog"/>
     <fullyQualifiedTypeName name="abstractpac.Dog.Loin"/>
+    <fullyQualifiedTypeName name="abstractpac.Address"/>
+    <fullyQualifiedTypeName name="aggregation.Address"/>
+    <fullyQualifiedTypeName name="aggregation.Emp"/>
+    <fullyQualifiedTypeName name="Assignment6.Person"/>
+    <fullyQualifiedTypeName name="javax.swing.BoundedRangeModel"/>
+    <fullyQualifiedTypeName name="Assignment6.GeometricShape"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="abstractpac.BankAccount"/>
 </qualifiedTypeNameHistroy>

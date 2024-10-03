@@ -1,0 +1,14 @@
+package interfacepac;
+
+public class TestCircle {
+
+	public static void main(String[] args) {
+		Circle circle= new Circle(5);
+		Rectangle rectangle=new Rectangle(5, 6);
+		
+		circle.area();
+		circle.perimeter();
+		rectangle.area();
+		rectangle.perimeter();
+	}
+}

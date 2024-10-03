@@ -1,0 +1,31 @@
+package abstractpac;
+
+ abstract class BankAccount
+{
+	protected int id;
+	protected float bal;
+	
+	
+	
+	public BankAccount(int id, float bal) {
+		super();
+		this.id = id;
+		this.bal = bal;
+	}
+
+
+
+	abstract public float calInterst();
+}
+class CurrentAccount extends BankAccount{
+	 private static final float INTEREST_RATE = 0.03f;  // Example interest rate
+
+	    public CurrentAccount(int id, float bal) {
+	        super(id, bal);
+	    }
+	    public float calInterest() {
+	        return bal * INTEREST_RATE;  // Calculate interest based on balance
+	    }
+	
+}
+

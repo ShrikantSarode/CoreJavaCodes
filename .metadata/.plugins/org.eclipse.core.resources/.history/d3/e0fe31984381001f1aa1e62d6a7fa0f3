@@ -1,0 +1,10 @@
+package Static;
+
+import static 
+public class MathSatic {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}
