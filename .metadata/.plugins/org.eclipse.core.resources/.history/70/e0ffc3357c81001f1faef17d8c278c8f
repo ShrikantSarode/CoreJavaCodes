@@ -1,0 +1,19 @@
+package staticnested;
+
+class OuterClass{
+	private static String msg="Welcome to Nested Class";
+	
+	public static class NestedStaticClass{
+		public void printMessage() {
+			System.out.println("Message from nested static class:"+msg);
+		}
+	}
+}
+public class ClassesNested {
+
+	public static void main(String[] args) {
+		 OuterClass.NestedStatic
+
+	}
+
+}

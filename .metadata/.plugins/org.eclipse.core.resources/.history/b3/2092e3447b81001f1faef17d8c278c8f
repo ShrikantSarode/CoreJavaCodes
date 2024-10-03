@@ -1,0 +1,10 @@
+package staticnested;
+
+public class ClassesNested {
+
+	public static void main(String[] args) {
+		 
+
+	}
+
+}
