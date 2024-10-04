@@ -1,0 +1,11 @@
+package exception;
+
+public class MultiExceptionDemo {
+
+	
+	
+	
+	public static void main(String[] args) {
+		
+	}
+}

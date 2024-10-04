@@ -25,7 +25,6 @@ public class SingleException {
 			System.out.println("Cannot divide number by zero");// 1st way
 //			e.printStackTrace(); 2nd way
 //			System.out.println(e.getMessage()); //3rd way
-			System.out.println(e);
 		}		
 	}
 }
