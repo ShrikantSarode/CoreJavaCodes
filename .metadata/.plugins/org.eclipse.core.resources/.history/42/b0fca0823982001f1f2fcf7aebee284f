@@ -1,0 +1,9 @@
+package exception;
+
+public class CheckPassword extends Exception{
+
+	public CheckPassword(String msg) {
+		super(msg);
+	}
+	
+}

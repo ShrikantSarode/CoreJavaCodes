@@ -1,0 +1,13 @@
+package exception;
+
+import java.io.FileInputStream;
+
+public class CheckExceptionDemo {
+
+	//D:\
+	public static void main(String[] args) {
+		FileInputStream file= new FileInputStream("//D:\MyFile.txt");
+		
+		
+	}
+}

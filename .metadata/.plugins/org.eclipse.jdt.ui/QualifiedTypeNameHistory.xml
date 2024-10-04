@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="assignment1.Assign4"/>
-    <fullyQualifiedTypeName name="module5.Myclass1"/>
-    <fullyQualifiedTypeName name="module5.Circle"/>
-    <fullyQualifiedTypeName name="module5.Overloadingdemo"/>
-    <fullyQualifiedTypeName name="module5.OverloadMain"/>
-    <fullyQualifiedTypeName name="array.A1"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="java.lang.Float"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.lang.Byte"/>
@@ -54,10 +45,19 @@
     <fullyQualifiedTypeName name="staticnested.OuterClass.InnerClass"/>
     <fullyQualifiedTypeName name="staticnested.OuterClass"/>
     <fullyQualifiedTypeName name="javax.sound.midi.MidiUnavailableException"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="javax.imageio.stream.FileImageInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.nio.file.FileAlreadyExistsException"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="exception.CheckExceptionDemo"/>
+    <fullyQualifiedTypeName name="exception.CheckPassword"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="exception.ArrayException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
 </qualifiedTypeNameHistroy>

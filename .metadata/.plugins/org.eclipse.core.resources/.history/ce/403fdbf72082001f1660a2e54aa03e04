@@ -1,0 +1,15 @@
+package exception;
+
+import java.io.FileInputStream;
+
+import java.io.IOException;
+
+public class CheckExceptionDemo {
+
+	//D:\
+	public static void main(String[] args) throws IOException {
+		FileInputStream file= new FileInputStream("//D:\\MyFile.txt");
+		
+		
+	}
+}
