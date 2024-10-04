@@ -1,0 +1,13 @@
+package exception;
+
+public class SingleException {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+	}
+}

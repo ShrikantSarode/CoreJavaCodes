@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="module2.Student"/>
-    <fullyQualifiedTypeName name="module2.Emp"/>
-    <fullyQualifiedTypeName name="module4.User"/>
     <fullyQualifiedTypeName name="module4.Emp"/>
     <fullyQualifiedTypeName name="assignment1.Assign1"/>
     <fullyQualifiedTypeName name="assignment1.Assign2"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.nimbus.NimbusLookAndFeel"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="staticnested.OuterClass.NestedStaticClass"/>
+    <fullyQualifiedTypeName name="staticnested.OuterClass.InnerClass"/>
+    <fullyQualifiedTypeName name="staticnested.OuterClass"/>
 </qualifiedTypeNameHistroy>

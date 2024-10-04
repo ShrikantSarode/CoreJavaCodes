@@ -8,7 +8,7 @@ class OuterClass {
 			System.out.println("Message from nested static class:" + msg);
 		}
 	}
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 	public class InnerClass {
 		public void display() {
 			System.out.println("Message from non static nested class: " + msg);
