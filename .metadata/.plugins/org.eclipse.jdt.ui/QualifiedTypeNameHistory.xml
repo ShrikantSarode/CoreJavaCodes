@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Long"/>
-    <fullyQualifiedTypeName name="constructor.Student"/>
-    <fullyQualifiedTypeName name="gettersetter.Customer"/>
-    <fullyQualifiedTypeName name="gettersetter.Account"/>
-    <fullyQualifiedTypeName name="inheritance.Student"/>
     <fullyQualifiedTypeName name="inheritance.Emp"/>
     <fullyQualifiedTypeName name="inheritance.Car"/>
     <fullyQualifiedTypeName name="inheritance.SportCar"/>
     <fullyQualifiedTypeName name="inheritance.Truck"/>
     <fullyQualifiedTypeName name="inheritance.Vehicle"/>
-    <fullyQualifiedTypeName name="inheritance.Person"/>
     <fullyQualifiedTypeName name="assignment5.Bank"/>
     <fullyQualifiedTypeName name="assignment5.BankA"/>
     <fullyQualifiedTypeName name="assignment5.Student"/>
@@ -42,22 +36,28 @@
     <fullyQualifiedTypeName name="staticnested.OuterClass.InnerClass"/>
     <fullyQualifiedTypeName name="staticnested.OuterClass"/>
     <fullyQualifiedTypeName name="javax.sound.midi.MidiUnavailableException"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="javax.imageio.stream.FileImageInputStream"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.nio.file.FileAlreadyExistsException"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="exception.CheckExceptionDemo"/>
     <fullyQualifiedTypeName name="exception.CheckPassword"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="exception.ArrayException"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.LayerInstantiationException"/>
     <fullyQualifiedTypeName name="assignment7.Library"/>
     <fullyQualifiedTypeName name="assignment7.Book"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="assignment7.P"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="inheritance.Person"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="inheritance.Student"/>
+    <fullyQualifiedTypeName name="inheritance.Teacher"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

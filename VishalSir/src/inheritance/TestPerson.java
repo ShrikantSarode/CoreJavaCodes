@@ -18,6 +18,7 @@ public class TestPerson {
 			System.out.println("3. Show All Students");
 			System.out.println("4. Show All Teachers");
 			System.out.println("5. Get All Details");
+			System.out.println("6. Exit");
 			System.out.print("Enter your choice: ");
 			int choice = sc.nextInt();
 			sc.nextLine(); // Consume the newline
@@ -86,11 +87,11 @@ public class TestPerson {
 
 				}
 				break;
-			case 5: // Show All 
+			case 5: // Show All
 				System.out.println("\nStored Teachers And Students:");
 				for (Person person : persons) {
-					
-						System.out.println(person);
+
+					System.out.println(person);
 
 				}
 				break;
@@ -103,8 +104,14 @@ public class TestPerson {
 			default:
 				System.out.println("Invalid choice. Please try again.");
 			}
-		}
+			if (choice!=6) {
+				System.out.println("Do you want to continue???{Y/N}");
+				String d = sc.next();
+				if (!d.equalsIgnoreCase("Y")) {
+					exit = false;
 
-		sc.close();
+				}
+			}
+		}
 	}
 }
