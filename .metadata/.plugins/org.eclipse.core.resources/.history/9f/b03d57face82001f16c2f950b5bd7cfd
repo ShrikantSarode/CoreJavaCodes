@@ -1,0 +1,22 @@
+package assignment7;
+
+public class Library {
+	
+	Book book;//has a relationship
+	int size=0;
+	final int bookSize=6;
+	
+	public Library(int size,Book book) {
+		this.size=size;
+		this.book=book;
+	}
+	
+	public void display()
+	{
+		System.out.println("No of Book : "+size);
+		System.out.println("Total no of Books : "+bookSize);
+		System.out.println("Book Title is: "+book.title+" And Book Author is: "+book.author);
+		System.out.println("===========================================================");
+	}
+
+}

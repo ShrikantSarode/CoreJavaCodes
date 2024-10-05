@@ -1,0 +1,14 @@
+package assignment7;
+
+public class TestBook {
+
+	public static void main(String[] args) {
+		
+		Book book1 = new Book("Prince Of Persia", "Shrikant"); 
+		Book book2 = new Book("Kings of Titan", "Akash Jha"); 
+		Book book3 = new Book("Robber Robins", "James gauslin"); 
+		
+		Library library= new Library(1, book1);
+		library.display();
+	}
+}

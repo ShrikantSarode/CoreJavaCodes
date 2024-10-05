@@ -1,0 +1,12 @@
+package assignment7;
+
+public class Library {
+	
+	//size=0
+	//bookSize=6   ==>final
+	//constru=>crud
+	//display
+	
+	Book book;//has a relationship
+
+}

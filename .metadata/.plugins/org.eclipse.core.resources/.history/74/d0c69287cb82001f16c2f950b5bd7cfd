@@ -1,0 +1,10 @@
+package assignment7;
+
+public class Book extends Library {
+
+	//tile,author
+	//getter setter, toString\
+	private String title;
+	
+	
+}
