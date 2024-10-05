@@ -1,57 +1,110 @@
 package inheritance;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class TestPerson {
 
-    public static void main(String[] args) {
-        int size;
-        Scanner sc = new Scanner(System.in);
-        
-        int choice;
-        boolean exit= true;
-        System.out.println("Enter your choice: ");
-        choice=sc.nextInt();
-        while(exit) {
-        	System.out.println("1.Register Student");
-        	System.out.println("2.Register Teacher");
-        	System.out.println("3.Show All Student");
-        	System.out.println("4.Show All Teacher");
-        }
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter number of Persons you want to add: ");
-        size = sc.nextInt();
-        sc.nextLine(); // Consume the newline
+		List<Person> persons = new ArrayList<>();
+		boolean exit = true;
 
-        Person[] p = new Person[size];
+		while (exit) {
+			System.out.println("1. Register Student");
+			System.out.println("2. Register Teacher");
+			System.out.println("3. Show All Students");
+			System.out.println("4. Show All Teachers");
+			System.out.println("5. Get All Details");
+			System.out.print("Enter your choice: ");
+			int choice = sc.nextInt();
+			sc.nextLine(); // Consume the newline
 
-        // Student details
-        for (int i = 0; i < size; i++) {
-            System.out.println("Enter Details for Student " + (i + 1));
-            System.out.print("Enter Name: ");
-            String name = sc.nextLine();
+			switch (choice) {
+			case 1: // Register Student
+				System.out.println("===============================");
+				System.out.println("Student Registration.");
+				System.out.println("===============================");
+				System.out.print("Enter Name: ");
+				String name = sc.nextLine();
 
-            System.out.print("Enter Age: ");
-            int age = sc.nextInt();
-            sc.nextLine(); // Consume the newline
+				System.out.print("Enter Age: ");
+				int age = sc.nextInt();
+				sc.nextLine(); // Consume the newline
 
-            System.out.print("Enter Address: ");
-            String add = sc.nextLine();
+				System.out.print("Enter Address: ");
+				String address = sc.nextLine();
 
-            System.out.print("Enter Roll Number: ");
-            short rollNo = sc.nextShort();
-            sc.nextLine(); // Consume the newline
+				System.out.print("Enter Roll Number: ");
+				short rollNo = sc.nextShort();
+				sc.nextLine(); // Consume the newline
 
-            System.out.println("===============================");
-            p[i] = new Student(name, age, add, rollNo); // Using rollNo instead of age
-        }
+				persons.add(new Student(name, age, address, rollNo));
+				System.out.println("Student registered successfully.");
+				System.out.println("===============================");
+				break;
 
-        // Display stored persons
-        System.out.println("\nStored Persons:");
-        for (Person person : p) {
-            System.out.println(person);
-        }
+			case 2: // Register Teacher
+				System.out.println("===============================");
+				System.out.println("Teacher Registration.");
+				System.out.println("===============================");
+				System.out.print("Enter Name: ");
+				name = sc.nextLine();
 
-        sc.close(); // Close the scanner
-    }
+				System.out.print("Enter Age: ");
+				age = sc.nextInt();
+				sc.nextLine(); // Consume the newline
+
+				System.out.print("Enter Address: ");
+				address = sc.nextLine();
+
+				System.out.print("Enter Salary: ");
+				double salary = sc.nextDouble();
+				sc.nextLine(); // Consume the newline
+
+				persons.add(new Teacher(name, age, address, salary));
+				System.out.println("Teacher registered successfully.");
+				System.out.println("===============================");
+				break;
+
+			case 3: // Show All Students
+				System.out.println("\nStored Students:");
+				for (Person person : persons) {
+					if (person instanceof Student)
+						System.out.println(person);
+
+				}
+				break;
+
+			case 4: // Show All Teachers
+				System.out.println("\nStored Teachers:");
+				for (Person person : persons) {
+					if (person instanceof Teacher)
+						System.out.println(person);
+
+				}
+				break;
+			case 5: // Show All 
+				System.out.println("\nStored Teachers And Students:");
+				for (Person person : persons) {
+					
+						System.out.println(person);
+
+				}
+				break;
+
+			case 6: // Exit
+				exit = false;
+				System.out.println("Exiting...");
+				break;
+
+			default:
+				System.out.println("Invalid choice. Please try again.");
+			}
+		}
+
+		sc.close();
+	}
 }
