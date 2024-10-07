@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="inheritance.Emp"/>
-    <fullyQualifiedTypeName name="inheritance.Car"/>
-    <fullyQualifiedTypeName name="inheritance.SportCar"/>
-    <fullyQualifiedTypeName name="inheritance.Truck"/>
-    <fullyQualifiedTypeName name="inheritance.Vehicle"/>
-    <fullyQualifiedTypeName name="assignment5.Bank"/>
-    <fullyQualifiedTypeName name="assignment5.BankA"/>
-    <fullyQualifiedTypeName name="assignment5.Student"/>
-    <fullyQualifiedTypeName name="module7.College"/>
-    <fullyQualifiedTypeName name="module7.Stream"/>
-    <fullyQualifiedTypeName name="module7.Reactangle"/>
     <fullyQualifiedTypeName name="module7.Shape"/>
     <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
     <fullyQualifiedTypeName name="Static.StaticVarDemo"/>
@@ -60,4 +49,15 @@
     <fullyQualifiedTypeName name="inheritance.Teacher"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="file.FileReaderDemo"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.nio.Buffer"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.Writer"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="multithreading.Multithread"/>
+    <fullyQualifiedTypeName name="multithreading.Demo"/>
 </qualifiedTypeNameHistroy>
