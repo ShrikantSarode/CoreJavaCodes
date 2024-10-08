@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Static.StaticVarDemo"/>
-    <fullyQualifiedTypeName name="Static.BankAccount"/>
-    <fullyQualifiedTypeName name="abstractpac.Animal"/>
-    <fullyQualifiedTypeName name="abstractpac.Dog"/>
-    <fullyQualifiedTypeName name="abstractpac.Dog.Loin"/>
-    <fullyQualifiedTypeName name="abstractpac.Address"/>
-    <fullyQualifiedTypeName name="aggregation.Address"/>
-    <fullyQualifiedTypeName name="aggregation.Emp"/>
-    <fullyQualifiedTypeName name="Assignment6.Person"/>
-    <fullyQualifiedTypeName name="javax.swing.BoundedRangeModel"/>
     <fullyQualifiedTypeName name="Assignment6.GeometricShape"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="abstractpac.BankAccount"/>
@@ -23,7 +13,6 @@
     <fullyQualifiedTypeName name="staticnested.OuterClass.InnerClass"/>
     <fullyQualifiedTypeName name="staticnested.OuterClass"/>
     <fullyQualifiedTypeName name="javax.sound.midi.MidiUnavailableException"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="javax.imageio.stream.FileImageInputStream"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.nio.file.FileAlreadyExistsException"/>
@@ -46,7 +35,6 @@
     <fullyQualifiedTypeName name="inheritance.Student"/>
     <fullyQualifiedTypeName name="inheritance.Teacher"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="file.FileReaderDemo"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.File"/>
@@ -57,7 +45,19 @@
     <fullyQualifiedTypeName name="java.io.Writer"/>
     <fullyQualifiedTypeName name="multithreading.Multithread"/>
     <fullyQualifiedTypeName name="multithreading.Demo"/>
-    <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="multithreading.Multithread1"/>
+    <fullyQualifiedTypeName name="multithreading.Myclass"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="inheritance.Emp"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="collectionframework.Employee"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java_assingment1.Myclass1"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java_assingment1.Account"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java_assingment1.Emp"/>
 </qualifiedTypeNameHistroy>
