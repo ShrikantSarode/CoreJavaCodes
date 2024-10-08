@@ -1,8 +1,0 @@
-package inheritance;
-
-public class SportCar extends Car {
-	
-	protected double horsepower;
-	
-
-}

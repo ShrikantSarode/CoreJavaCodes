@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Assignment6.GeometricShape"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="abstractpac.BankAccount"/>
-    <fullyQualifiedTypeName name="interfacepac.Graphics"/>
-    <fullyQualifiedTypeName name="interfacepac.Circle"/>
-    <fullyQualifiedTypeName name="interfacepac.Rectangle"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.nimbus.NimbusLookAndFeel"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
@@ -31,7 +25,6 @@
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="inheritance.Person"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="inheritance.Student"/>
     <fullyQualifiedTypeName name="inheritance.Teacher"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -47,11 +40,9 @@
     <fullyQualifiedTypeName name="multithreading.Demo"/>
     <fullyQualifiedTypeName name="multithreading.Multithread1"/>
     <fullyQualifiedTypeName name="multithreading.Myclass"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="inheritance.Emp"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="collectionframework.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
@@ -60,4 +51,13 @@
     <fullyQualifiedTypeName name="java_assingment1.Account"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java_assingment1.Emp"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="collectionframework.HashTableDemo"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Hashtable"/>
+    <fullyQualifiedTypeName name="generics.Myclass"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
 </qualifiedTypeNameHistroy>
