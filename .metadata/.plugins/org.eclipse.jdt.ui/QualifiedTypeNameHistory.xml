@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.nimbus.NimbusLookAndFeel"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="staticnested.OuterClass.NestedStaticClass"/>
-    <fullyQualifiedTypeName name="staticnested.OuterClass.InnerClass"/>
-    <fullyQualifiedTypeName name="staticnested.OuterClass"/>
-    <fullyQualifiedTypeName name="javax.sound.midi.MidiUnavailableException"/>
-    <fullyQualifiedTypeName name="javax.imageio.stream.FileImageInputStream"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.nio.file.FileAlreadyExistsException"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="exception.CheckExceptionDemo"/>
@@ -52,12 +43,21 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java_assingment1.Emp"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="collectionframework.HashTableDemo"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Hashtable"/>
     <fullyQualifiedTypeName name="generics.Myclass"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="enumpac.EnumDemo1.Months"/>
+    <fullyQualifiedTypeName name="enumpac.Interface1"/>
+    <fullyQualifiedTypeName name="java.lang.MatchException"/>
+    <fullyQualifiedTypeName name="enumpac.Months"/>
+    <fullyQualifiedTypeName name="enumpac.Month1"/>
+    <fullyQualifiedTypeName name="enumpac.EnumDemo3.Month1"/>
+    <fullyQualifiedTypeName name="enumpac.Days"/>
+    <fullyQualifiedTypeName name="date.DateDemo"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 </qualifiedTypeNameHistroy>
