@@ -1,8 +1,0 @@
-package Static;
-
-public class StaticVarDemo {
-
-	public static void main(String[] args) {
-		
-	}
-}

@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.nio.file.FileAlreadyExistsException"/>
-    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-    <fullyQualifiedTypeName name="exception.CheckExceptionDemo"/>
-    <fullyQualifiedTypeName name="exception.CheckPassword"/>
-    <fullyQualifiedTypeName name="exception.ArrayException"/>
-    <fullyQualifiedTypeName name="java.lang.LayerInstantiationException"/>
-    <fullyQualifiedTypeName name="assignment7.Library"/>
-    <fullyQualifiedTypeName name="assignment7.Book"/>
-    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="assignment7.P"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
@@ -58,6 +47,17 @@
     <fullyQualifiedTypeName name="enumpac.Month1"/>
     <fullyQualifiedTypeName name="enumpac.EnumDemo3.Month1"/>
     <fullyQualifiedTypeName name="enumpac.Days"/>
-    <fullyQualifiedTypeName name="date.DateDemo"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="date.DateDemo"/>
+    <fullyQualifiedTypeName name="java.util.TimeZone"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="reflection.ReflectionDemo.Test"/>
+    <fullyQualifiedTypeName name="reflection.Test"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="reflection.ReflectionDemo"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="aggregationAssignment.Student"/>
+    <fullyQualifiedTypeName name="aggregationAssignment.Name"/>
 </qualifiedTypeNameHistroy>
